@@ -159,7 +159,7 @@ body {
 
 .tile.revealed {
     cursor: default;
-    opacity: 0.8; /* Dull effect for unrevealed tiles */
+    opacity: 0.8;
 }
 
 .tile:hover {
@@ -177,7 +177,7 @@ body {
 }
 
 .betButton:disabled {
-    opacity: 0.5; /* Dimmed effect for disabled Bet button */
+    opacity: 0.5;
 }
 
 .gameOverMessage {
