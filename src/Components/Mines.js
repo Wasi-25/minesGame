@@ -45,9 +45,9 @@ const Mines = () => {
     const renderTileContent = (index) => {
         if (revealedTiles[index]) {
             if (mines.includes(index)) {
-                return <img src="https://stake.com/_app/immutable/assets/mine.a3RCV9E2.svg" alt="Mine" />;
+                return <img src="https://cdn.pixabay.com/photo/2020/10/02/09/40/bomb-5620656_960_720.png" alt="Mine" />;
             } else if (diamonds.includes(index)) {
-                return <img src="https://stake.com/_app/immutable/assets/gem-none.XL-l_wR5.svg" alt="Diamond" />;
+                return <img src="https://images.vexels.com/content/157265/preview/blue-diamond-stone-vector-617e18.png" alt="Diamond" />;
             }
         }
         return null;
